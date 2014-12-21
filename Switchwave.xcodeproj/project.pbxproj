@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75ED83CC1A4695D900574DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED83CB1A4695D900574DBE /* AppDelegate.swift */; };
+		75ED83CE1A4695D900574DBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED83CD1A4695D900574DBE /* ViewController.swift */; };
+		75ED83D11A4695D900574DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ED83CF1A4695D900574DBE /* Main.storyboard */; };
+		75ED83D31A4695D900574DBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75ED83D21A4695D900574DBE /* Images.xcassets */; };
+		75ED83D61A4695D900574DBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75ED83D41A4695D900574DBE /* LaunchScreen.xib */; };
+		75ED83E21A4695D900574DBE /* SwitchwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED83E11A4695D900574DBE /* SwitchwaveTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75ED83DC1A4695D900574DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75ED83BE1A4695D900574DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75ED83C51A4695D900574DBE;
+			remoteInfo = Switchwave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75ED83C61A4695D900574DBE /* Switchwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switchwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75ED83CA1A4695D900574DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75ED83CB1A4695D900574DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75ED83CD1A4695D900574DBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75ED83D01A4695D900574DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75ED83D21A4695D900574DBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75ED83D51A4695D900574DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75ED83DB1A4695D900574DBE /* SwitchwaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchwaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75ED83E01A4695D900574DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75ED83E11A4695D900574DBE /* SwitchwaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchwaveTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75ED83C31A4695D900574DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75ED83D81A4695D900574DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75ED83BD1A4695D900574DBE = {
+			isa = PBXGroup;
+			children = (
+				75ED83C81A4695D900574DBE /* Switchwave */,
+				75ED83DE1A4695D900574DBE /* SwitchwaveTests */,
+				75ED83C71A4695D900574DBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75ED83C71A4695D900574DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75ED83C61A4695D900574DBE /* Switchwave.app */,
+				75ED83DB1A4695D900574DBE /* SwitchwaveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75ED83C81A4695D900574DBE /* Switchwave */ = {
+			isa = PBXGroup;
+			children = (
+				75ED83CB1A4695D900574DBE /* AppDelegate.swift */,
+				75ED83CD1A4695D900574DBE /* ViewController.swift */,
+				75ED83CF1A4695D900574DBE /* Main.storyboard */,
+				75ED83D21A4695D900574DBE /* Images.xcassets */,
+				75ED83D41A4695D900574DBE /* LaunchScreen.xib */,
+				75ED83C91A4695D900574DBE /* Supporting Files */,
+			);
+			path = Switchwave;
+			sourceTree = "<group>";
+		};
+		75ED83C91A4695D900574DBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75ED83CA1A4695D900574DBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75ED83DE1A4695D900574DBE /* SwitchwaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				75ED83E11A4695D900574DBE /* SwitchwaveTests.swift */,
+				75ED83DF1A4695D900574DBE /* Supporting Files */,
+			);
+			path = SwitchwaveTests;
+			sourceTree = "<group>";
+		};
+		75ED83DF1A4695D900574DBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75ED83E01A4695D900574DBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75ED83C51A4695D900574DBE /* Switchwave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75ED83E51A4695D900574DBE /* Build configuration list for PBXNativeTarget "Switchwave" */;
+			buildPhases = (
+				75ED83C21A4695D900574DBE /* Sources */,
+				75ED83C31A4695D900574DBE /* Frameworks */,
+				75ED83C41A4695D900574DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Switchwave;
+			productName = Switchwave;
+			productReference = 75ED83C61A4695D900574DBE /* Switchwave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75ED83DA1A4695D900574DBE /* SwitchwaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75ED83E81A4695D900574DBE /* Build configuration list for PBXNativeTarget "SwitchwaveTests" */;
+			buildPhases = (
+				75ED83D71A4695D900574DBE /* Sources */,
+				75ED83D81A4695D900574DBE /* Frameworks */,
+				75ED83D91A4695D900574DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75ED83DD1A4695D900574DBE /* PBXTargetDependency */,
+			);
+			name = SwitchwaveTests;
+			productName = SwitchwaveTests;
+			productReference = 75ED83DB1A4695D900574DBE /* SwitchwaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75ED83BE1A4695D900574DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Saniul Ahmed";
+				TargetAttributes = {
+					75ED83C51A4695D900574DBE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					75ED83DA1A4695D900574DBE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 75ED83C51A4695D900574DBE;
+					};
+				};
+			};
+			buildConfigurationList = 75ED83C11A4695D900574DBE /* Build configuration list for PBXProject "Switchwave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75ED83BD1A4695D900574DBE;
+			productRefGroup = 75ED83C71A4695D900574DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75ED83C51A4695D900574DBE /* Switchwave */,
+				75ED83DA1A4695D900574DBE /* SwitchwaveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75ED83C41A4695D900574DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ED83D11A4695D900574DBE /* Main.storyboard in Resources */,
+				75ED83D61A4695D900574DBE /* LaunchScreen.xib in Resources */,
+				75ED83D31A4695D900574DBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75ED83D91A4695D900574DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75ED83C21A4695D900574DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ED83CE1A4695D900574DBE /* ViewController.swift in Sources */,
+				75ED83CC1A4695D900574DBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75ED83D71A4695D900574DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75ED83E21A4695D900574DBE /* SwitchwaveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75ED83DD1A4695D900574DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75ED83C51A4695D900574DBE /* Switchwave */;
+			targetProxy = 75ED83DC1A4695D900574DBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75ED83CF1A4695D900574DBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75ED83D01A4695D900574DBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75ED83D41A4695D900574DBE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75ED83D51A4695D900574DBE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75ED83E31A4695D900574DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75ED83E41A4695D900574DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75ED83E61A4695D900574DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Switchwave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75ED83E71A4695D900574DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Switchwave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75ED83E91A4695D900574DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchwaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Switchwave.app/Switchwave";
+			};
+			name = Debug;
+		};
+		75ED83EA1A4695D900574DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchwaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Switchwave.app/Switchwave";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75ED83C11A4695D900574DBE /* Build configuration list for PBXProject "Switchwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75ED83E31A4695D900574DBE /* Debug */,
+				75ED83E41A4695D900574DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75ED83E51A4695D900574DBE /* Build configuration list for PBXNativeTarget "Switchwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75ED83E61A4695D900574DBE /* Debug */,
+				75ED83E71A4695D900574DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75ED83E81A4695D900574DBE /* Build configuration list for PBXNativeTarget "SwitchwaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75ED83E91A4695D900574DBE /* Debug */,
+				75ED83EA1A4695D900574DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75ED83BE1A4695D900574DBE /* Project object */;
+}
