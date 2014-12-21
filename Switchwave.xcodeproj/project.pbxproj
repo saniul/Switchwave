@@ -13,6 +13,7 @@
 		75ED83D31A4695D900574DBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75ED83D21A4695D900574DBE /* Images.xcassets */; };
 		75ED83D61A4695D900574DBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75ED83D41A4695D900574DBE /* LaunchScreen.xib */; };
 		75ED83E21A4695D900574DBE /* SwitchwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ED83E11A4695D900574DBE /* SwitchwaveTests.swift */; };
+		75ED83EC1A46A4FA00574DBE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 75ED83EB1A46A4FA00574DBE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		75ED83DB1A4695D900574DBE /* SwitchwaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchwaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75ED83E01A4695D900574DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75ED83E11A4695D900574DBE /* SwitchwaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchwaveTests.swift; sourceTree = "<group>"; };
+		75ED83EB1A46A4FA00574DBE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				75ED83D21A4695D900574DBE /* Images.xcassets */,
 				75ED83D41A4695D900574DBE /* LaunchScreen.xib */,
 				75ED83C91A4695D900574DBE /* Supporting Files */,
+				75ED83EB1A46A4FA00574DBE /* README.md */,
 			);
 			path = Switchwave;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75ED83EC1A46A4FA00574DBE /* README.md in Sources */,
 				75ED83CE1A4695D900574DBE /* ViewController.swift in Sources */,
 				75ED83CC1A4695D900574DBE /* AppDelegate.swift in Sources */,
 			);
